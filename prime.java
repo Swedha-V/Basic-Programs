@@ -1,8 +1,9 @@
+import java.util.*;
 public class prime {
 
     public static void main(String[] args) {
-  
-      int num = 29;
+        Scanner sc=new Scanner(System.in);
+      int num = sc.nextInt();
       boolean flag = false;
   
       // 0 and 1 are not prime numbers
